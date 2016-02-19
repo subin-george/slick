@@ -42,3 +42,11 @@ $('.slider-nav').slick({
         }
     }]
 });
+
+//appendArrows
+$('.app-arrow').slick({
+    appendArrows: $('.slide-nav'),
+    prevArrow: "<button class='prev'><</button>",
+    nextArrow: "<button class='next'>></button>",
+    fade: true,
+});
