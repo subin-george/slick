@@ -1,4 +1,4 @@
-$('.fade').slick({
+$('.fade-sl').slick({
   dots: true,
   infinite: true,
   autoplay: true,
